@@ -8,7 +8,14 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="icon" href="images/icons/blob.svg" type="image/x-icon">
     <link rel="manifest" href="manifest.json">
-     
+    <!--POUR SAFARI-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Salut World !">
+    <link rel="apple-touch-icon" href="images/icons/blob.svg">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#3E4EB8">
+    <meta name="theme-color" content="#2F3BA2">
+    
+     <!-- TODO: Devsite - Removed inline handlers -->
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
@@ -24,7 +31,7 @@
 <body>
     <header>
         <div class="header-nav">
-            <a href="index.html">Télécharger l'application</a>
+            <a href="">Télécharger l'application</a>
         </div>
     </header>
     <main>
