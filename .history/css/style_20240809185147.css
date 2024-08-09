@@ -44,7 +44,7 @@ a:hover {
 }
 
 .nav-link {
-  width: 160px;
+  width: 0px;
   padding-left: 0.625rem; /* 10px */
   padding-right: 0.625rem; /* 10px */
   padding-top: 0.625rem; /* 10px */
@@ -53,12 +53,6 @@ a:hover {
   background-color: rgb(46, 111, 25);
   color: white;
   font-size: 1.25rem;
-  border-radius: 0.25rem;
-}
-
-.nav-link:hover {
-  background-color: rgb(208, 138, 16);
-  color: white;
 }
 
 /* .nav-link {

@@ -56,11 +56,6 @@ a:hover {
   border-radius: 0.25rem;
 }
 
-.nav-link:hover {
-  background-color: rgb(208, 138, 16);
-  color: white;
-}
-
 /* .nav-link {
   width: 200px;
   padding: 1rem;

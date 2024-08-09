@@ -5,7 +5,7 @@ installButton.addEventListener('click', installPWA);
 
 // CODELAB: Add event listener for beforeinstallprompt event
 
-window.addEventListener('beforeinstallprompt', afficherBouttonInstall);
+window.addEventListener('beforeinstallprompt', afficherBoutonInstall);
 
 function afficherBouttonInstall(evt) {
     // CODELAB: Save the event & show the install button.
