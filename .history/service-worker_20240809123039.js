@@ -31,7 +31,7 @@ self.addEventListener('activate', (evt) => {
                     console.log('[ServiceWorker] Removing old cache', key);
                     return caches.delete(key);
                 }
-            }));
+            });
         })
     );
 
