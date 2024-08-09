@@ -27,16 +27,7 @@
             ]
         }
     ],
-    "protocol_handlers": [
-        {
-            "protocol": "mailto",
-            "url": "https://example.com/mailto?uri=%s"
-        },
-        {
-            "protocol": "web+demo",
-            "url": "https://example.com/demo?uri=%s"
-        }
-    ],
+    "protocol_handlers": [],
     "display_override": [],
     "icons": [
         {
@@ -100,4 +91,5 @@
     "orientation": "landscape",
     "description": "A simple weather app",
     "lang": "fr"
+    
 }

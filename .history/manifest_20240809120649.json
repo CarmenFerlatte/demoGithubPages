@@ -27,16 +27,6 @@
             ]
         }
     ],
-    "protocol_handlers": [
-        {
-            "protocol": "mailto",
-            "url": "https://example.com/mailto?uri=%s"
-        },
-        {
-            "protocol": "web+demo",
-            "url": "https://example.com/demo?uri=%s"
-        }
-    ],
     "display_override": [],
     "icons": [
         {
