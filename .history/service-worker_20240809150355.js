@@ -42,17 +42,18 @@ self.addEventListener('fetch', (evt) => {
 
     // Fetch from network and cache if not in cache.
     evt.respondWith(
-        caches.open(CACHE_NAME).then(async (cache) => {
-            try {
-                const response = await fetch(evt.request);
-                // If the response was OK, clone it and store it in the cache.
-                if (response.status === 200) {
-                    cache.put(evt.request, response.clone());
-                }
-                return response;
-            } catch {
-                return await cache.match(evt.request);
-            }
+        caches.open(CACHE_NAME).then((cache) => {
+            return fetch(evt.request)
+                .then((response) => {
+                    // If the response was OK, clone it and store it in the cache.
+                    if (response.status === 200) {
+                        cache.put(evt.request, response.clone());
+                    }
+                    return response;
+                })
+                .catch(() => {
+                    return cache.match(evt.request);
+                });
         })
     );
 });
