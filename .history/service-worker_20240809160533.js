@@ -5,12 +5,7 @@ const CACHE_NAME = 'static-cache-v1';
 const FILES_TO_CACHE = [
     '/offline.html',
     '/index.html',
-    '/manifest.json',
-    '/images/icons/icon-144x144.png',
-    '/images/icons/icon-152x152.png',
-    '/images/icons/icon-192x192.png',
-    '/images/icons/icon-256x256.png',
-    '/images/icons/icon-512x512.png'
+    
 ];
 
 // Installation

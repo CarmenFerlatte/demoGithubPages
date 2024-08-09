@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salut World !</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="icon" href="images/icons/blob.svg" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+     
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('service-worker.js')
+          .then((reg) => {
+            console.log('Service worker registered.', reg);
+          });
+        });
+      }
+    </script>
+    <script src="service-wor" defer></script>
+    
+</head>
+<body>
+    <header>
+        <div class="header-nav">
+            <a href="index.html">Télécharger l'application</a>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <h1>Salut le monde !</h1>
+            <p>Github pages</p>
+            <img class="icon-512" src="images/icons/icon-512x512.png" alt="Promenade avec pitou">
+        </section>
+    
+    </main>
+</body>
+</html>
