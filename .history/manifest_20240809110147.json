@@ -48,7 +48,7 @@
     "screenshots": [
         {
             "src": "images/screenshots/screenshot-1.png",
-            "sizes": "540x720",
+            "sizes": "768x1024",
             "type": "image/png",
             "form_factor": "narrow",
             "label": "Home screen"

@@ -18,7 +18,7 @@ h1 {
 
 p {
   font-size: 1rem;
-  color: #161616;
+  color: #333;
   margin-bottom: 1rem;
 }
 
@@ -40,13 +40,11 @@ a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(42, 41, 41);
+    background-color: gray;
     
 }
 
 .container {
     max-width: 75rem;
     height: 100vh;
-    margin: 0 auto;
-    padding: 1.25rem;
 }

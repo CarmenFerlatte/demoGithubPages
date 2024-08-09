@@ -18,17 +18,13 @@ h1 {
 
 p {
   font-size: 1rem;
-  color: #161616;
+  color: #333;
   margin-bottom: 1rem;
 }
 
 a {
   text-decoration: none;
-  color: rgb(222, 227, 242);
-}
-
-a:hover {
-    color: greenyellow;
+  color: rgb(30, 75, 201);
 }
 
 .header-nav {
@@ -36,17 +32,4 @@ a:hover {
     height: 100px;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(42, 41, 41);
-    
-}
-
-.container {
-    max-width: 75rem;
-    height: 100vh;
-    margin: 0 auto;
-    padding: 1.25rem;
 }
