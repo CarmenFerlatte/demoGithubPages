@@ -43,14 +43,14 @@ a:hover {
   background-color: rgb(42, 41, 41);
 }
 
-/* .nav-link {
+.nav-link {
   width: 200px;
   padding: 1rem;
   margin: 0 1rem;
   background-color: rgb(46, 111, 25);
   color: white;
   font-size: 1.25rem;
-} */
+}
 
 .container {
   max-width: 75rem;
