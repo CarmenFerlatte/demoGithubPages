@@ -19,15 +19,12 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('service-worker.js')
-          .then((reg) => {
-            console.log('Service worker registered.', reg);
-          });
+          navigator.serviceWorker.register('sw.js');
         });
       }
     </script>
     <script type="module" src="js/app.js" defer></script>
-    <script src="service-worker.js" defer></script>
+    <script src="js/.js" defer></script>
 </head>
 <body>
     <header>
