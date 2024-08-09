@@ -1,6 +1,6 @@
 {
-    "name": "Exercices",
-    "short_name": "Exercices",
+    "name": "Wheather",
+    "short_name": "Wheather",
     "icons": [
         {
             "src": "images/icons/icon-48x48.png",
@@ -42,7 +42,7 @@
             "src": "images/icons/icon-512x512.png",
             "sizes": "512x512",
             "type": "image/png",
-            "purpose": "images/icons/maskable-icon.png"
+            "purpose": ""
         }
     ],
     "screenshots": [
