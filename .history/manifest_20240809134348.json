@@ -28,16 +28,17 @@
             "type": "image/png"
         },
         {
-            "src": "images/screenshots/screenshot-1.png",
-            "sizes": "540x720",
-            "type": "image/png"
-        },
-        {
-            "src": "images/screenshots/screenshot-2.png",
-            "sizes": "1280x800",
+            "src": "images/"screenshots": [
+                {
+                    "src":"The src to your screenshot",
+                    "sizes":"The size of your screenshot, such as 2880x1800",
+                    "type":"The type of your image, such as image/png"
+                    "description":"The type of your image, such as image/png"
+                }
+            ]",
+            "sizes": "1024x1024",
             "type": "image/png"
         }
-
     ],
     "start_url": "/index.html",
     "display": "standalone",

@@ -33,7 +33,7 @@
             "type": "image/png"
         },
         {
-            "src": "images/screenshots/screenshot-2.png",
+            "src": "images/",
             "sizes": "1280x800",
             "type": "image/png"
         }

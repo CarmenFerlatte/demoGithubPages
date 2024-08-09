@@ -31,13 +31,7 @@
             "src": "images/screenshots/screenshot-1.png",
             "sizes": "540x720",
             "type": "image/png"
-        },
-        {
-            "src": "images/screenshots/screenshot-2.png",
-            "sizes": "1280x800",
-            "type": "image/png"
         }
-
     ],
     "start_url": "/index.html",
     "display": "standalone",
