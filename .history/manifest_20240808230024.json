@@ -13,17 +13,17 @@
             "type": "image/png"
         },
         {
-            "src": "images/icons/icon-152x152.jpg",
+            "src": "images/icons/",
             "sizes": "152x152",
             "type": "image/png"
         },
         {
-            "src": "images/icons/icon-192x192.jpg",
+            "src": "images/icons/icon-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "images/icons/icon-512x512.png",
+            "src": "images/icons/icon-256x256.png",
             "sizes": "256x256",
             "type": "image/png"
         },
