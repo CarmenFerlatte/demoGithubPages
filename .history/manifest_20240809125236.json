@@ -5,7 +5,7 @@
         {
             "name": "Shortcut 1",
             "description": "Description of Shortcut 1",
-            "url": "/demoGithubPages?uri=%s",
+            "url": "https://example.com/shortcut1",
             "icons": [
                 {
                     "src": "images/icons/shortcut1-icon.png",

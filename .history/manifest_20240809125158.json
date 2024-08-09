@@ -1,32 +1,7 @@
 {
     "name": "Exercices",
     "short_name": "Exercices",
-    "shortcuts": [
-        {
-            "name": "Shortcut 1",
-            "description": "Description of Shortcut 1",
-            "url": "/demoGithubPages?uri=%s",
-            "icons": [
-                {
-                    "src": "images/icons/shortcut1-icon.png",
-                    "sizes": "192x192",
-                    "type": "image/png"
-                }
-            ]
-        },
-        {
-            "name": "Shortcut 2",
-            "description": "Description of Shortcut 2",
-            "url": "/demoGithubPages?uri=%s",
-            "icons": [
-                {
-                    "src": "images/icons/shortcut2-icon.png",
-                    "sizes": "192x192",
-                    "type": "image/png"
-                }
-            ]
-        }
-    ],
+    
     "protocol_handlers": [
         {
             "protocol": "web+demo",
