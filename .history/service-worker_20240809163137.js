@@ -1,5 +1,5 @@
 // Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v4';
+const CACHE_NAME = 'static-cache-v3';
 
 // Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -55,15 +55,20 @@ self.addEventListener('fetch', (evt) => {
     if (evt.request.mode !== 'navigate') {
         // Not a page navigation, bail.
         return;
-    }
+        
     evt.respondWith(
-        fetch(evt.request) // On tente de récupérer la ressource
-            .catch(() => {
-                // Si la récupération échoue, on renvoie la page offline
-                return caches.open(CACHE_NAME)
-                    .then((cache) => {
-                        return cache.match('/offline.html');
-                    });
-            })
+        caches.open(CACHE_NAME).then((cache) => {
+            return fetch(evt.request)
+                .then((response) => {
+                    // If the response was OK, clone it and store it in the cache.
+                    if (response.status === 200) {
+                        cache.put(evt.request, response.clone());
+                    }
+                    return response;
+                })
+                .catch(() => {
+                    return cache.match(evt.request);
+                });
+        })
     );
 });
