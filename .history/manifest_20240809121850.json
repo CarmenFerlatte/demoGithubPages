@@ -28,6 +28,7 @@
         }
     ],
     "protocol_handlers": [
+        
         {
             "protocol": "web+demo",
             "url": "https://carmenferlatte.github.io/demoGithubPages/"

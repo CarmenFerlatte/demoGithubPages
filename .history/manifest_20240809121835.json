@@ -28,6 +28,10 @@
         }
     ],
     "protocol_handlers": [
+        // {
+        //     "protocol": "mailto",
+        //     "url": "https://example.com/mailto?uri=%s"
+        // },
         {
             "protocol": "web+demo",
             "url": "https://carmenferlatte.github.io/demoGithubPages/"

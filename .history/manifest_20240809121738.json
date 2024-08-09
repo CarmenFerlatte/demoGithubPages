@@ -29,8 +29,12 @@
     ],
     "protocol_handlers": [
         {
-            "protocol": "web+demo",
-            "url": "https://carmenferlatte.github.io/demoGithubPages/"
+            "protocol": "mailto",
+            "url": "https://example.com/mailto?uri=%s"
+        },
+        {
+            "protocol": "web+",
+            "url": "https://example.com/demo?uri=%s"
         }
     ],
     "display_override": [],
