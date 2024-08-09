@@ -16,8 +16,6 @@ self.addEventListener('install', (evt) => {
         caches.open(CACHE_NAME).then((cache) => {
             console.log('[ServiceWorker] Mise en cache des fichiers statiques de l\'application');
             return cache.addAll(FILES_TO_CACHE);
-        }) .catch((error) => {
-            console.error('[ServiceWorker] Failed to pre-cache', error);
         })
     );
 

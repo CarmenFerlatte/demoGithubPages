@@ -20,6 +20,7 @@ self.addEventListener('install', (evt) => {
             console.error('[ServiceWorker] Failed to pre-cache', error);
         })
     );
+    );
 
     self.skipWaiting();
 });
