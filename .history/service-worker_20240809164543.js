@@ -1,5 +1,5 @@
 // Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v5';
+const CACHE_NAME = 'static-cache-v4';
 
 // Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -8,11 +8,11 @@ const FILES_TO_CACHE = [
     './css/styles.css',
     './css/mobile.css',
     './manifest.json',
-    './images/icons/icon-144x144.png',
+    '.',
     './images/icons/icon-152x152.png',
-    './images/icons/icon-192x192.png',
-    './images/icons/icon-256x256.png',
-    './images/icons/icon-512x512.png'
+    '/images/icons/icon-192x192.png',
+    '/images/icons/icon-256x256.png',
+    '/images/icons/icon-512x512.png'
 ];
 
 // Installation
