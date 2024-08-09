@@ -36,18 +36,14 @@
             "src": "images/screenshots/screenshot-1.png",
             "sizes": "540x720",
             "type": "image/png",
-            "form_factor": "narrow",
-            "label": "Home screen"
-            
+            "purpose": "any maskable"
 
         },
         {
             "src": "images/screenshots/screenshot-2.png",
             "sizes": "1280x800",
             "type": "image/png",
-            "form_factor": "wide",
-            "label": "Home screen"
-           
+            "purpose": "any maskable"
         }
 
     ],

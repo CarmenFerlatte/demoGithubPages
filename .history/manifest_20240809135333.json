@@ -45,7 +45,7 @@
             "src": "images/screenshots/screenshot-2.png",
             "sizes": "1280x800",
             "type": "image/png",
-            "form_factor": "wide",
+            "form_factor": "n",
             "label": "Home screen"
            
         }
