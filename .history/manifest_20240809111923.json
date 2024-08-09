@@ -3,7 +3,7 @@
     "short_name": "Wheather",
     "icons": [
         {
-            "src": "images/icons/icon-48x48.png",
+            "src": "images/icons/",
             "sizes": "48x48",
             "type": "image/png",
             "purpose": "any maskable"
