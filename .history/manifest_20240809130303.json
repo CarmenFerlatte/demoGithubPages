@@ -21,7 +21,7 @@
             "icons": [
                 {
                     "src": "images/icons/shortcut2-icon.png",
-                    "sizes": "256x256",
+                    "sizes": "256",
                     "type": "image/png"
                 }
             ]
